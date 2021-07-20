@@ -1,0 +1,832 @@
+*{ 
+    font-family: 'Satisfy', cursive;
+    padding: 10;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.margin{
+    margin-top: 90px;
+}
+button,video{
+    outline: none;
+}
+/*----------------------------------------------------*/
+/*end of grid*/
+/*----------------------------------------------------*/
+.toppar{
+    padding: 8px 0px;
+    background-color: black;
+    color: white;
+    padding-left: 140px;
+    font-size: 17px;
+}
+.toppar a{
+    color: white;
+    text-decoration: none;
+}
+.toppar a:hover{
+    color: goldenrod;
+    text-decoration: none;
+}
+.toppar p{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.login{
+    margin-left: 630px;
+    margin-right: 8px;
+}
+/*----------------------------------------------------*/
+/*------------- end of toppar section ------------*/
+/*----------------------------------------------------*/
+.nav{
+    height: 40px;
+    background-color: #222;
+    border-bottom: 2px solid rgb(236, 230, 217);
+}
+.nav .img{
+    margin-left: 150px;
+    color: goldenrod;
+    display: inline;
+    font-size: 24px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+.nav .img:hover{
+    color: chocolate;
+    text-decoration: none;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li a{
+    color: goldenrod;
+    font-size: 20px;
+    display: block;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: chocolate;
+}
+.nav ul li a i{
+    color: rgb(236, 230, 217);
+}
+.nav ul .act{
+    margin-left: 320px;
+}
+/*----------------------------------------------------*/
+/*------------- end of nav bar -------------*/
+/*----------------------------------------------------*/
+header{
+    height: 590px;
+    background-image: url(../image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1{
+    display: inline;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    color: yellow;
+}
+header h2{
+    display: inline;
+    position: absolute;
+    top: 40%;
+    left: 7.5%;
+    color: yellow;
+}
+header div{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    color: darkorange;
+    font-size: 22px;
+}
+header button{
+    position: absolute;
+    top: 70%;
+    left: 7.5%;
+    font-size: 22px;
+    background-color: #222;
+    color: wheat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: sticky;
+}
+header button:hover{
+    background-color: black;
+    border:1px solid yellow solid white;
+    color: white;
+}
+/*----------------------------------------------------*/
+/*end of header*/
+/*----------------------------------------------------*/
+.plan .h h1{
+    font-size: 50px;
+    color: olivedrab;
+    text-align: center;
+    padding-top: 60px;
+}
+.plan .h p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.plan .row .col-4 .plan-1{
+    border: 2px solid olivedrab;
+    text-align: center;
+    background-image: linear-gradient(rgba(21,12,23,.1),rgba(23,23,23,.9)),url(../image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .4s;
+}
+.plan .row .col-4 .plan-1:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+.plan .row .col-4 .plan-1 h1{
+    color: olivedrab;
+    padding: 40px 0px;
+}
+.plan .row .col-4 .plan-1 h3{
+    padding: 20px 0px;
+    color: wheat;
+}
+.plan .row .col-4 .plan-1 p{
+    font-size: 23px;
+    padding: 20px 0px;
+    color: wheat;
+}
+.plan .row .col-4 .plan-1 button{
+    background-color: rgb(43, 233, 138);
+    font-size: 22px;
+    color: rgb(7, 61, 6);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.plan .row .col-4 .plan-1 button:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.plan .row .col-4 .plan-1 .line{
+    border-bottom:1px solid goldenrod;
+    margin: 0px 40px;
+}
+/*----------------------------------------------------*/
+/*end of section plans*/
+/*----------------------------------------------------*/
+.feature .head h1{
+    text-align: center;
+    color: darkorange;
+    font-size: 44px;
+} 
+.feature .row .col-4 .f1{
+    border-bottom: .9px solid black;
+}
+.feature .row .col-4 .f1 i{
+    font-size: 29px;
+    float: left;
+    color: gold;
+    padding-right: 28px;
+}
+.feature .row .col-4 .f1 h1{
+    font-size: 37px;
+}
+.feature .row .col-4 .f1 p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+/*----------------------------------------------------*/
+/*end of feature section*/
+/*----------------------------------------------------*/
+.gallery .margin h1{
+    text-align: center;
+    font-size: 48px;
+    color: goldenrod;
+    letter-spacing: 30px;
+    text-shadow: 5px 5px rgba(241, 196, 49, 0.5);
+}
+.gallery .image-1{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    opacity: .8;
+    overflow: hidden;
+    transition: transform .3s;
+    margin-bottom: 9px;
+    border-bottom: 5px solid gold;
+    transition: transform .6s;
+}
+.gallery .image-1 img{
+    margin-top: 30px;
+    height: 410px;
+    width: 320px;
+}
+.gallery .image-1:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.gallery .image-2{
+    display: block;
+    margin-left: 75px;
+    opacity: .8;
+    overflow: hidden;
+    transition: transform .3s;
+}
+.gallery .image-2 img{
+    margin-top: 30px;
+    height: 260px;
+    width: 250px;
+}
+.gallery .image-2:hover{
+    opacity: 1;
+    transform: scale(1.09);
+}
+/*----------------------------------------------------*/
+/*end of gallery section*/
+/*----------------------------------------------------*/
+.video .container{
+    background-color: rgb(226, 231, 243);
+}
+.video .container .row .col-6 .v video{
+    height: 300px;
+}
+.video .container .row .col-6 .p p{
+    margin: 30px 0px 30px 30px;
+}
+.video .container .row .col-6 .p p::first-line{
+    color: rgb(60, 119, 11);
+}
+.video .container .row .col-6 .p i{
+    color: rgb(14, 46, 230);
+    font-size: 26px;
+    margin-right: 10px;
+}
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+.money{
+    text-align: center;
+}
+.money .margin .mon h1{
+    margin-bottom: 30px;
+    text-shadow: 5px 5px rgba(231, 95, 16, 0.5);
+    text-align: center;
+    font-size: 48px;
+    color: goldenrod;
+    letter-spacing: 30px;
+}
+.money .m{
+    border:2px solid yellow;
+}
+.money .m .m1{
+    border:2px solid yellow;
+    transform: rotate(5deg);
+}
+.money .m .m1 .m2{
+    transform: rotate(-4deg);
+    background-image: url(../image/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.money .m .m1 .m2 h1{
+    text-align: center;
+    color: rgb(42, 250, 23);
+    text-shadow: 4px 5px rgba(21,12,23,.4);
+    padding: 9px 0px 10px 0px;
+}
+.money .m .m1 .m2 del{
+    display: block;
+    text-align: center;
+}
+.money .m .m1 .m2 span{
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(93, 233, 179);
+}
+.money .m .m1 .m2 p{
+    display: block;
+    padding: 20px 0px 20px 50px;
+    color: wheat;
+    font-size: 20px;
+}
+.money .m .m1 .m2 button{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(1, 255, 137);
+    background-color: rgb(2, 56, 35);
+    margin-bottom: 10px;
+}
+.money .m .m1 .m2 button:hover{
+    background-color: rgb(1, 255, 137);
+    color: rgb(2, 56, 35);
+    cursor: pointer;
+}
+/*----------------------------------------------------*/
+/*end of money for subscribers section*/
+/*----------------------------------------------------*/
+.contact{
+    background-color: rgb(189, 218, 191);
+    text-align: center;
+}
+.contact h1{
+    color: rgb(18, 94, 25);
+    font-size: 33px;
+    padding: 20px 0px;
+}
+.contact p{
+    padding: 0px 400px 20px;
+    text-align: justify;
+}
+.contact .home-form label{
+    color: rgb(20, 243, 39);
+    display: block;
+    font-size: 25px;
+    margin-right: 40px;
+    text-shadow: 2px 2px rgba(2, 56, 35, .5);
+    padding-top: 20px;
+}
+.contact .home-form input{
+    width: 23%;
+    height: 40px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 15px;
+}
+.contact .home-form textarea{
+    display: block;
+    padding: 10px 0px 0px 10px;
+    margin-bottom: 10px;
+    width: 23%;
+    margin-left: 515px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 15px;
+}
+.contact .home-form input:focus,.contact .home-form textarea:focus{
+    border: 1px solid rgb(0, 253, 21);
+    outline: none;
+}
+.contact .home-form button{
+    width: 23%;
+    height: 40px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    cursor: pointer;
+}
+.contact .home-form button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);}
+/*----------------------------------------------------*/
+/*---------- end of contact section ------------------*/
+/*----------------------------------------------------*/
+footer{
+    background-color: #444;
+    height: 350px;
+    padding-top: 80px;
+}
+.one{
+    margin-left: 70px;
+}
+.one h3{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.one p{
+    text-align: justify;
+    color: #888;
+}
+.two{
+    margin-left: 30px;
+}
+.two h3{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.two ul{
+    list-style: none;
+}
+.two ul li{
+    margin-top: 8px;
+}
+.two ul li a{
+    text-decoration: none;
+    color: #888;
+}
+.two ul li a:hover{
+    font-size: 28px;
+    color: rgb(226, 231, 243);
+}
+.three{
+    float: left;
+}
+.three h3{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+.three ul{
+    list-style: none;
+    display: flex;
+}
+.three ul li a{
+    margin-right: 25px;
+    color: #888;
+}
+.three ul li i{
+    font-size: 23px;
+}
+.three ul li i:hover{
+    font-size: 28px;
+    color: rgb(226, 231, 243);
+}
+.four{
+    margin-left: 30px;
+}
+.four h3{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+.four form input{
+    width: 240px;
+}
+.four form button{
+    margin: 15px 0px 0px 75px;
+    width: 90px;
+    height: 50px;
+    border-radius: 23px;
+    color: black;
+    background-color: wheat;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.four form button:hover{
+    background-color: black;
+    color: wheat;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*end of footer section and the first page "home"*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*------------- Start the gallery page ----------*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+nav{
+    height: 40px;
+    background-color: #222;
+}
+nav .gal-img{
+    margin-left: 150px;
+    color: rgb(240, 172, 236);
+    display: inline;
+    font-size: 24px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+nav .gal-ul{
+    list-style: none;
+    display: flex;
+}
+nav .gal-ul li a{
+    color: rgb(240, 172, 236);
+    font-size: 20px;
+    display: block;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+nav .gal-ul li a:hover{
+    color: rgb(238, 32, 228);
+}
+nav .gal-ul li a i{
+    color: rgb(236, 230, 217);
+}
+nav .gal-ul .act{
+    margin-left: 320px;
+    text-decoration: underline rgb(241, 204, 124);
+    text-decoration: none;
+}
+/*----------------------------------------------------*/
+/*------------- end of nav bar -------------*/
+/*----------------------------------------------------*/
+.gal-header{
+    height: 590px;
+    background-image: url(../image/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.gal-header h1{
+    text-align: center;
+    color: rgb(245, 153, 245);
+    font-size: 37px;
+    padding-top: 100px;
+    word-spacing: 8px;
+}
+.gal-header h2{
+    padding-top: 9px;
+    text-align: center;
+    color: rgb(245, 153, 245);
+    word-spacing: 3px;
+}
+.gal-header p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin: 50px 300px;
+}
+.gal-header button{
+    display: block;
+    margin: 20px 0px 0px 584px;
+    font-size: 22px;
+    background-color: wheat;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.gal-header button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+/*----------------------------------------------------*/
+/*----------- end of header of the gallery page ------*/
+/*----------------------------------------------------*/
+.gal-image .container h1,.gal-image .container h2{
+    font-size: 30px;
+    margin: 30px 0px 10px 0px;
+    text-shadow: 2px 2px rgba(241, 140, 236, 0.8);
+}
+.gal-image .container .row .col-3 img{
+    width: 290px;
+    height: 290px;
+}
+/*-------------------------------------------------------*/
+/*---------------- images ---------- images -------------*/
+/*-------------------------------------------------------*/
+.gal-numbers .container .content table{
+    margin: auto;
+    padding: 20px 0px;
+}
+.gal-numbers .container .content table td{
+    border: 1px solid wheat;
+    padding: 10px 0px;
+}
+.gal-numbers .container .content table td a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.gal-numbers .container .content table td a:hover{
+    background-color: black;
+    color: wheat;
+}
+.gal-numbers .container .content .act{
+    background-color: black;
+    color: wheat;
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------ end of gallery page -------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*------------------ start the plan's page------------------*/
+/*----------------------------------------------------------*/
+nav{
+    height: 40px;
+    background-color: #222;
+}
+nav .pl-img{
+    margin-left: 150px;
+    color: rgb(180, 240, 172);
+    display: inline;
+    font-size: 24px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+nav .pl-ul{
+    list-style: none;
+    display: flex;
+}
+nav .pl-ul li a{
+    color: rgb(180, 240, 172);
+    font-size: 20px;
+    display: block;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+nav .pl-ul li a:hover{
+    color: rgb(0, 253, 21);
+}
+nav .pl-ul li a i{
+    color: rgb(236, 230, 217);
+}
+nav .pl-ul .act{
+    margin-left: 320px;
+    text-decoration: none;
+}
+/*----------------------------------------------------*/
+/*------------- end of nav bar -------------*/
+/*----------------------------------------------------*/
+.pl-header{
+    height: 590px;
+    background-image: url(../image/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pl-header h1{
+    text-align: center;
+    color:  rgb(180, 240, 172);
+    font-size: 37px;
+    padding-top: 100px;
+    word-spacing: 8px;
+}
+.pl-header h2{
+    padding-top: 9px;
+    text-align: center;
+    color:  rgb(180, 240, 172);
+    word-spacing: 3px;
+}
+.pl-header p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    margin: 50px 300px;
+}
+.pl-header button{
+    display: block;
+    margin: 20px 0px 0px 584px;
+    font-size: 22px;
+    background-color:  rgb(180, 240, 172);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.pl-header button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+/*----------------------------------------------------*/
+/*----------- end of header of the plans page --------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------- end of page plans= ---------------*/
+/*----------------------------------------------------*/
+/*--------------- start the responsive part-----------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+@media (max-width:600px){
+    .col-3{width: 95%;}
+    .col-4{width: 93%;}
+    .col-6{width: 99%;}
+    .toppar{
+        padding: 8px 0px;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    .login{
+        margin-left: 30px;
+        margin-right: 8px;
+    }
+    /*----------------------------------------------------*/
+    /*------------- end of toppar section ------------*/
+    /*----------------------------------------------------*/
+    .gallery .image-1 img{
+        width: 100%;
+    }
+    /*----------------------------------------------------*/
+    /*end of gallery section*/
+    /*----------------------------------------------------*/
+    .video .container .row .col-6 .v video{
+        width: 100%;
+    }
+    /*----------------------------------------------------*/
+    /*----------------------------------------------------*/
+    .money .margin .mon h1{
+        font-size: 38px;
+        letter-spacing: 20px;
+    }
+    /*----------------------------------------------------*/
+    /*end of money for subscribers section*/
+    /*----------------------------------------------------*/
+    .contact p{
+        text-align: center;
+        text-align: justify;
+    }
+    .contact .home-form label{
+        color: rgb(20, 243, 39);
+        display: block;
+        font-size: 25px;
+        margin-right: 40px;
+        text-shadow: 2px 2px rgba(2, 56, 35, .5);
+        padding-top: 20px;
+    }
+    .contact .home-form input{
+        width: 23%;
+        height: 40px;
+        margin-top: 8px;
+        border: none;
+        border-radius: 15px;
+    }
+    .contact .home-form textarea{
+        display: block;
+        padding: 10px 0px 0px 10px;
+        margin-bottom: 10px;
+        width: 23%;
+        margin-left: 515px;
+        margin-top: 8px;
+        border: none;
+        border-radius: 15px;
+    }
+    .contact .home-form input:focus,.contact .home-form textarea:focus{
+        border: 1px solid rgb(0, 253, 21);
+        outline: none;
+    }
+    .contact .home-form button{
+        width: 23%;
+        height: 40px;
+        margin-top: 8px;
+        border: none;
+        border-radius: 15px;
+        margin: 10px 0px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .contact .home-form button:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);}
+    /*----------------------------------------------------*/
+    /*---------- end of contact section ------------------*/
+    /*----------------------------------------------------*/
+
+}
